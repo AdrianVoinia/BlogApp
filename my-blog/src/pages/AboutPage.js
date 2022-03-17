@@ -1,8 +1,8 @@
 
-const HomePage = () => {
+const AboutPage = () => {
     return (
     <>
-    <h1>Hello, welcome to my blog!</h1>
+    <h1>About me</h1>
     <p>
         Welcome to my blog! Proin congue
         ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
@@ -31,4 +31,4 @@ const HomePage = () => {
     )
 };
 
-export default HomePage;
+export default AboutPage;
