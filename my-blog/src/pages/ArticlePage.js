@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import ArticlesList from "../components/ArticlesList";
 import articlesList from "./article-content";
+import NotFoundPage from "./NotFoundPage";
 
 
 const ArticlePage = () => {
@@ -10,7 +11,7 @@ const ArticlePage = () => {
 
     if(!article) {
         return (
-            <h1>This articol does not exist.</h1>
+            <NotFoundPage/>
         )
     }
 
